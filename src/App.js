@@ -6,15 +6,31 @@ import {
   TooltipPlacement,
 } from "@syncfusion/ej2-react-popups";
 
-
-import { Navbar, Footer, Side, ThemeSettings, UserProfile  } from './components';
-import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editors } from './pages';
+import { Navbar, Footer, Side, ThemeSettings, UserProfile } from "./components";
+import {
+  Ecommerce,
+  Orders,
+  Calendar,
+  Employees,
+  Stacked,
+  Pyramid,
+  Customers,
+  Kanban,
+  Line,
+  Area,
+  Bar,
+  Pie,
+  Financial,
+  ColorPicker,
+  ColorMapping,
+  Editors,
+} from "./pages";
 import React from "react";
 import "./App.css";
-
+import { useStateContext } from "./contexts/ContextProvider";
 
 const App = () => {
-  const activeMenu = true;
+  const { activeMenu } = useStateContext();
   return (
     <div>
       <BrowserRouter>
@@ -33,10 +49,12 @@ const App = () => {
 
           {activeMenu ? (
             <div className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white">
-             <Side>  </Side>
+              <Side />
             </div>
           ) : (
-            <div className="w-0 dark:bg-secondary-dark-bg"><Side>  </Side></div>
+            <div className="w-0 dark:bg-secondary-dark-bg">
+              <Side> </Side>
+            </div>
           )}
           <div
             className={
@@ -46,7 +64,7 @@ const App = () => {
             }
           >
             <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full">
-              <Navbar /> 
+              <Navbar />
             </div>
           </div>
           <div>
@@ -76,7 +94,6 @@ const App = () => {
               <Route path="/color-mapping" element={<ColorMapping />} />
               <Route path="/pyramid" element={<Pyramid />} />
               <Route path="/stacked" element={<Stacked />} />
-
             </Routes>
           </div>
         </div>

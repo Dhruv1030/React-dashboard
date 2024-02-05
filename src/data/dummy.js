@@ -146,7 +146,7 @@ export const areaPrimaryXAxis = {
   majorGridLines: { width: 0 },
   intervalType: 'Years',
   edgeLabelPlacement: 'Shift',
-  // labelStyle: { color: 'gray' },
+  labelStyle: { color: 'gray' },
 };
 
 export const areaPrimaryYAxis = {
