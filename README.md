@@ -1,3 +1,14 @@
+This is a react based Project. i made it from the help of syncfuison component. this dashboard has many components  like it have charts,ProfileSection , Ecommerce homepage , Employees page.
+It is fully responsive site. 
+Here is some pictures of that website.
+
+<img width="1512" alt="Screenshot 2024-02-08 at 1 10 13 PM" src="https://github.com/Dhruv1030/React-dashboard/assets/133604356/0370c203-b0bc-44c6-b7d0-e4a617b8843c">
+
+<img width="1512" alt="Screenshot 2024-02-08 at 1 10 20 PM" src="https://github.com/Dhruv1030/React-dashboard/assets/133604356/0ef69419-a4cc-46e2-827d-2f7ac7a82d97">
+<img width="1512" alt="Screenshot 2024-02-08 at 1 10 22 PM" src="https://github.com/Dhruv1030/React-dashboard/assets/133604356/4cc4137c-13ee-4705-ac76-20841b70a9a9">
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +79,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
