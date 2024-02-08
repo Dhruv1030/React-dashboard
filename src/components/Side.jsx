@@ -51,7 +51,7 @@ const Side = () => {
                     key={link.name}
                     onClick={() => {console.log("handleClose")}}
                     style={({ isActive }) => ({
-                      backgroundColor: isActive ? "#03C9D7" : '',
+                      backgroundColor: isActive ? currentColor: '',
                     })}
                     className={({ isActive }) => (isActive ? activeLink : normalLink)}
                   >

@@ -15,3 +15,4 @@ export { default as Stacked } from './Charts/Stacked';
 export { default as ChartsHeader } from './ChartsHeader';
 export { default as Header } from './Header';
 export {default as Side} from './Side';
+export {default as Pie} from './Charts/Pie'
